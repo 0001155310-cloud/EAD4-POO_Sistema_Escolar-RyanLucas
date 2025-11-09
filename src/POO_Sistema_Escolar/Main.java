@@ -1,3 +1,5 @@
+package POO_Sistema_Escolar;
+
 public class Main {
     public static void main(String[] args) {
 

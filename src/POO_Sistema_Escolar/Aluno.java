@@ -1,3 +1,5 @@
+package POO_Sistema_Escolar;
+
 public class Aluno {
 
     // Declarando os atributos como privados
@@ -62,7 +64,7 @@ public class Aluno {
     public void matricular() { //Criando metodo matricular()
         if (!matriculado) { //matriculado já começa sendo falso, logo "!matriculado" seria true
             matriculado = true; //Se o aluno não era matriculado, isso matricula o aluno
-            System.out.println("Aluno foi matriculado com sucesso!");
+            System.out.println("POO_Sistema_Escolar.Aluno foi matriculado com sucesso!");
 
         } else { //caso o aluno já seja matriculado
             System.out.println("O aluno já está matriculado!");
@@ -82,9 +84,9 @@ public class Aluno {
     //verificarMaioridade()
     public void verificarMaioridade() { //criando o metodo verificarMaioridade
         if (idade >= 18) { //se for maior de idade
-            System.out.println("Aluno é maior de idade e pode participar de cursos noturnos.");
+            System.out.println("POO_Sistema_Escolar.Aluno é maior de idade e pode participar de cursos noturnos.");
         } else { //se for menor de idade
-            System.out.println("Aluno é menor de idade e possui restrições de horário.");
+            System.out.println("POO_Sistema_Escolar.Aluno é menor de idade e possui restrições de horário.");
         }
     }
 
@@ -120,7 +122,7 @@ public class Aluno {
 
     //exibirInformações()
     public void exibirInformacoes() { //declara o metodo
-        System.out.println("\n===== Dados do Aluno =====");
+        System.out.println("\n===== Dados do POO_Sistema_Escolar.Aluno =====");
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Curso: " + curso);
